@@ -3732,3 +3732,357 @@ ORA-03301: (Detalles de ORA-00001) ya existe la fila con los valores de columna 
 2025-11-03T07:41:18.475-05:00 DEBUG 23964 --- [exa02] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@61c52b11: (connection evicted)
 2025-11-03T07:41:18.479-05:00 DEBUG 23964 --- [exa02] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
 2025-11-03T07:41:18.479-05:00  INFO 23964 --- [exa02] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-03T07:47:44.176-05:00  INFO 22408 --- [exa02] [main] com.example.exa02.Exa02Application       : Starting Exa02Application using Java 21.0.7 with PID 22408 (C:\Users\Docente\Documents\dwi\exa02\target\classes started by Docente in C:\Users\Docente\Documents\dwi\exa02)
+2025-11-03T07:47:44.178-05:00  INFO 22408 --- [exa02] [main] com.example.exa02.Exa02Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-03T07:47:45.227-05:00  INFO 22408 --- [exa02] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-03T07:47:45.304-05:00  INFO 22408 --- [exa02] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2025-11-03T07:47:45.961-05:00  INFO 22408 --- [exa02] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-11-03T07:47:45.988-05:00  INFO 22408 --- [exa02] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-03T07:47:45.989-05:00  INFO 22408 --- [exa02] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-03T07:47:46.083-05:00  INFO 22408 --- [exa02] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-03T07:47:46.083-05:00  INFO 22408 --- [exa02] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1854 ms
+2025-11-03T07:47:46.166-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : Driver class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-03T07:47:46.340-05:00  INFO 22408 --- [exa02] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-03T07:47:46.442-05:00  INFO 22408 --- [exa02] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-03T07:47:46.542-05:00  INFO 22408 --- [exa02] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-03T07:47:46.971-05:00  INFO 22408 --- [exa02] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-03T07:47:47.009-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2025-11-03T07:47:47.012-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-11-03T07:47:47.012-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-11-03T07:47:47.012-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-11-03T07:47:47.012-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-11-03T07:47:47.012-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-11-03T07:47:47.013-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-11-03T07:47:47.014-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-11-03T07:47:47.014-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-11-03T07:47:47.014-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-11-03T07:47:47.014-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-11-03T07:47:47.015-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2025-11-03T07:47:47.015-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-11-03T07:47:47.015-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-11-03T07:47:47.015-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-11-03T07:47:47.016-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2025-11-03T07:47:47.016-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-11-03T07:47:47.016-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-11-03T07:47:47.016-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@localhost:1522/FREEPDB1
+2025-11-03T07:47:47.017-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-11-03T07:47:47.018-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2025-11-03T07:47:47.018-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-11-03T07:47:47.018-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-11-03T07:47:47.018-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-11-03T07:47:47.019-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-11-03T07:47:47.019-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2025-11-03T07:47:47.019-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-11-03T07:47:47.019-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2025-11-03T07:47:47.019-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-11-03T07:47:47.020-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-11-03T07:47:47.020-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-11-03T07:47:47.021-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-11-03T07:47:47.021-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-11-03T07:47:47.021-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-11-03T07:47:47.021-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : username........................"EXA02"
+2025-11-03T07:47:47.022-05:00 DEBUG 22408 --- [exa02] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-11-03T07:47:47.022-05:00  INFO 22408 --- [exa02] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-03T07:47:47.423-05:00  INFO 22408 --- [exa02] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@30af23fd
+2025-11-03T07:47:47.425-05:00  INFO 22408 --- [exa02] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-03T07:47:47.539-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2025-11-03T07:47:47.623-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2eaa84c4
+2025-11-03T07:47:47.662-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=1, idle=1, waiting=0)
+2025-11-03T07:47:47.750-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2444bd02
+2025-11-03T07:47:47.786-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-11-03T07:47:47.866-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5c0becb8
+2025-11-03T07:47:47.909-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-11-03T07:47:47.987-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@e9571e8
+2025-11-03T07:47:48.030-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-11-03T07:47:48.142-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@470fc619
+2025-11-03T07:47:48.185-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2025-11-03T07:47:48.269-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2ec9301e
+2025-11-03T07:47:48.300-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2025-11-03T07:47:48.386-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7c05f40e
+2025-11-03T07:47:48.417-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2025-11-03T07:47:48.505-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@380953d4
+2025-11-03T07:47:48.536-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2025-11-03T07:47:48.620-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@40a53b1e
+2025-11-03T07:47:48.651-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:47:48.651-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:47:48.867-05:00  INFO 22408 --- [exa02] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-03T07:47:50.270-05:00  INFO 22408 --- [exa02] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-03T07:47:50.743-05:00  WARN 22408 --- [exa02] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-03T07:47:50.851-05:00 DEBUG 22408 --- [exa02] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 17 mappings in 'requestMappingHandlerMapping'
+2025-11-03T07:47:50.928-05:00 DEBUG 22408 --- [exa02] [main] o.s.w.s.c.annotation.WebMvcConfigurer    : Default resource handling disabled
+2025-11-03T07:47:50.938-05:00 DEBUG 22408 --- [exa02] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-11-03T07:47:50.983-05:00 DEBUG 22408 --- [exa02] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-03T07:47:51.031-05:00 DEBUG 22408 --- [exa02] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-03T07:47:51.249-05:00  INFO 22408 --- [exa02] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-11-03T07:47:51.259-05:00  INFO 22408 --- [exa02] [main] com.example.exa02.Exa02Application       : Started Exa02Application in 7.606 seconds (process running for 8.692)
+2025-11-03T07:48:12.813-05:00  INFO 22408 --- [exa02] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-03T07:48:12.813-05:00  INFO 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-03T07:48:12.813-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-11-03T07:48:12.813-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-11-03T07:48:12.813-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-11-03T07:48:12.815-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2b71a12e
+2025-11-03T07:48:12.815-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@69862a1
+2025-11-03T07:48:12.815-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-11-03T07:48:12.816-05:00  INFO 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-11-03T07:48:12.825-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/productos", parameters={}
+2025-11-03T07:48:12.837-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.ProductoController#listAll()
+2025-11-03T07:48:12.998-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.categoria_id,
+        p1_0.nombre,
+        p1_0.precio,
+        p1_0.stock 
+    from
+        EXA02.producto p1_0
+2025-11-03T07:48:13.031-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:48:13.045-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:48:13.068-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-03T07:48:13.069-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ProductoDTO(id=9, nombre=parlantes, precio=3, stock=3, categoriaId=5, categoriaNombre=TECNOLOGIA),  (truncated)...]
+2025-11-03T07:48:13.132-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T07:48:17.552-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:48:17.553-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:48:47.556-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:48:47.557-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:49:17.565-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:49:17.565-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:49:47.567-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:49:47.567-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:50:17.568-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:50:17.568-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:50:47.569-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:50:47.569-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:51:17.571-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:51:17.571-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:51:47.574-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:51:47.574-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:52:17.582-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:52:17.582-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:52:47.589-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:52:47.589-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:52:59.664-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/productos", parameters={}
+2025-11-03T07:52:59.665-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.ProductoController#listAll()
+2025-11-03T07:52:59.669-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.categoria_id,
+        p1_0.nombre,
+        p1_0.precio,
+        p1_0.stock 
+    from
+        EXA02.producto p1_0
+2025-11-03T07:52:59.675-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:52:59.677-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:52:59.680-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-03T07:52:59.680-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ProductoDTO(id=9, nombre=parlantes, precio=3, stock=3, categoriaId=5, categoriaNombre=TECNOLOGIA),  (truncated)...]
+2025-11-03T07:52:59.681-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T07:53:17.596-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:53:17.596-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:53:47.597-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:53:47.597-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:54:17.598-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:54:17.598-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:54:47.599-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:54:47.599-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:55:17.601-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:55:17.601-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:55:47.617-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:55:47.617-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:56:17.619-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:56:17.619-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:56:47.620-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:56:47.620-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:57:17.622-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:57:17.622-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:57:47.623-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:57:47.623-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:57:51.906-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-11-03T07:57:51.906-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/productos", parameters={}
+2025-11-03T07:57:51.907-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.CategoriaController#listAll()
+2025-11-03T07:57:51.907-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.ProductoController#listAll()
+2025-11-03T07:57:51.921-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.categoria_id,
+        p1_0.nombre,
+        p1_0.precio,
+        p1_0.stock 
+    from
+        EXA02.producto p1_0
+2025-11-03T07:57:51.921-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0
+2025-11-03T07:57:51.926-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:57:51.929-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-11-03T07:57:51.929-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:57:51.930-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=2, nombre=ACEITES, estado=1), CategoriaDTO(id=3, nombre=DETERGENTES, estado=1), Cat (truncated)...]
+2025-11-03T07:57:51.932-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T07:57:51.932-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-11-03T07:57:51.932-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ProductoDTO(id=9, nombre=parlantes, precio=3, stock=3, categoriaId=5, categoriaNombre=TECNOLOGIA),  (truncated)...]
+2025-11-03T07:57:51.934-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T07:58:17.632-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:58:17.632-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:58:47.645-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:58:47.645-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:58:57.316-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/productos", parameters={}
+2025-11-03T07:58:57.316-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-11-03T07:58:57.317-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.CategoriaController#listAll()
+2025-11-03T07:58:57.317-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.ProductoController#listAll()
+2025-11-03T07:58:57.320-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.categoria_id,
+        p1_0.nombre,
+        p1_0.precio,
+        p1_0.stock 
+    from
+        EXA02.producto p1_0
+2025-11-03T07:58:57.320-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0
+2025-11-03T07:58:57.325-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:58:57.325-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-11-03T07:58:57.325-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=2, nombre=ACEITES, estado=1), CategoriaDTO(id=3, nombre=DETERGENTES, estado=1), Cat (truncated)...]
+2025-11-03T07:58:57.326-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T07:58:57.327-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T07:58:57.330-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-11-03T07:58:57.331-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ProductoDTO(id=9, nombre=parlantes, precio=3, stock=3, categoriaId=5, categoriaNombre=TECNOLOGIA),  (truncated)...]
+2025-11-03T07:58:57.332-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T07:59:17.647-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:59:17.647-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T07:59:47.652-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T07:59:47.652-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T08:00:10.624-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-11-03T08:00:10.625-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.CategoriaController#listAll()
+2025-11-03T08:00:10.631-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0
+2025-11-03T08:00:10.638-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-11-03T08:00:10.638-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=2, nombre=ACEITES, estado=1), CategoriaDTO(id=3, nombre=DETERGENTES, estado=1), Cat (truncated)...]
+2025-11-03T08:00:10.640-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T08:00:12.793-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/productos", parameters={}
+2025-11-03T08:00:12.794-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.ProductoController#listAll()
+2025-11-03T08:00:12.794-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-11-03T08:00:12.795-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.exa02.controller.general.CategoriaController#listAll()
+2025-11-03T08:00:12.800-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.categoria_id,
+        p1_0.nombre,
+        p1_0.precio,
+        p1_0.stock 
+    from
+        EXA02.producto p1_0
+2025-11-03T08:00:12.801-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0
+2025-11-03T08:00:12.807-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T08:00:12.807-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-11-03T08:00:12.807-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=2, nombre=ACEITES, estado=1), CategoriaDTO(id=3, nombre=DETERGENTES, estado=1), Cat (truncated)...]
+2025-11-03T08:00:12.808-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T08:00:12.810-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        EXA02.categoria c1_0 
+    where
+        c1_0.id=?
+2025-11-03T08:00:12.813-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-11-03T08:00:12.814-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ProductoDTO(id=9, nombre=parlantes, precio=3, stock=3, categoriaId=5, categoriaNombre=TECNOLOGIA),  (truncated)...]
+2025-11-03T08:00:12.815-05:00 DEBUG 22408 --- [exa02] [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-11-03T08:00:17.660-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T08:00:17.660-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T08:00:47.661-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T08:00:47.661-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-11-03T08:01:17.662-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-11-03T08:01:17.662-05:00 DEBUG 22408 --- [exa02] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
