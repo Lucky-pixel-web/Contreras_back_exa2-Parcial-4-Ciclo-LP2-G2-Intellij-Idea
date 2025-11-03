@@ -9,9 +9,12 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring")
 public interface ProductoMapper extends BaseMapper<Producto, ProductoDTO> {
 
+    //DTO a Entitu
     @Mapping(target = "categoria", ignore = true)
     Producto toEntity(ProductoDTO dto);
 
+    //Entity a DTO
     @Mapping(source = "categoria.id", target = "categoriaId")
+    @Mapping(source = "categoria.nombre", target = "categoriaNombre")
     ProductoDTO toDTO(Producto entity);
 }

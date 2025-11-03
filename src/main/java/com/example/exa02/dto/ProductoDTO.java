@@ -15,4 +15,5 @@ public class ProductoDTO {
     private BigDecimal precio;
     private Integer stock;
     private Long categoriaId;
+    private String categoriaNombre;
 }
