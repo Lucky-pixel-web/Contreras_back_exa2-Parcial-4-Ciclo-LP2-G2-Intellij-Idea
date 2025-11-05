@@ -1,8 +1,8 @@
 package com.example.exa02.repository;
 
-import com.example.exa02.entity.Producto;
+import com.example.exa02.entity.Carreras;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ProductoRepository extends JpaRepository<Producto, Long> {
+public interface CarrerasRepository extends JpaRepository<Carreras, Long> {
     boolean existsByNombreIgnoreCase(String nombre);
 }
