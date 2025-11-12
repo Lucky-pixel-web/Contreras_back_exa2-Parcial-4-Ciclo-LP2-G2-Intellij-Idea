@@ -59,9 +59,12 @@ public class EstudiantesServiceImpl implements EstudiantesService {
         try {
             Estudiantes estudiante = estudiantesRepository.findById(aLong)
                     .orElseThrow(() -> new ResourceNotFoundException("Estudiante con id " + aLong + " no encontrado"));
+            Carreras carreras = carrerasRepository.findById(estudiantesDTO.getCarreraCodigo())
+                    .orElseThrow(() -> new ResourceNotFoundException("Carrera no encontrada"));
             estudiante.setNombre(estudiantesDTO.getNombre());
             estudiante.setApellido(estudiantesDTO.getApellido());
             estudiante.setFechaNacimiento(estudiantesDTO.getFechaNacimiento());
+            estudiante.setCarreras(carreras);
             Estudiantes estudianteActualizado = estudiantesRepository.save(estudiante);
             return this.estudiantesMapper.toDTO(estudianteActualizado);
         } catch (ResourceNotFoundException e) {
